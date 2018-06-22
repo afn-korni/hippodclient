@@ -373,7 +373,7 @@ class Test(object):
         root["attachment"] = self.attachment.transform()
 
         root["object-item"] = self.transform()
-        pprint.pprint(root)
+        #pprint.pprint(root)
         return json.dumps(root, sort_keys=True, separators=(',', ': '))
 
 
